@@ -1,17 +1,36 @@
-# Tableau-Ecommerce-Dashboard
-Small Tableau Project Merancang dan membangun dashboard interaktif menggunakan Tableau untuk memvisualisasikan tren penjualan bulanan, distribusi geografis, dan profitabilitas produk dari dataset operasional e-commerce.
+# 📊 E-Commerce Sales & Operations Performance Analysis
 
-E-Commerce Sales & Operations Performance
-📊 Live Dashboard: https://public.tableau.com/app/profile/david.fam2141/viz/Book1_17779636601020/E-CommerceOperationsDashboard
+**Live Interactive Dashboard:** [Klik di sini untuk melihat Dashboard di Tableau Public](https://public.tableau.com/app/profile/david.fam2141/viz/Book1_17779636601020/E-CommerceOperationsDashboard#1)
 
-Objektif Project:
-Menganalisis data transaksi historis untuk mengidentifikasi tren penjualan, mengevaluasi profitabilitas per sub-kategori produk, dan mengukur efisiensi logistik (waktu pengiriman).
+## 📝 Deskripsi Project
+Project ini bertujuan untuk menganalisis performa penjualan dan efisiensi operasional dari sebuah perusahaan E-Commerce fiktif (Superstore). Fokus utama dari analisis ini bukan hanya pada pelaporan pendapatan, tetapi juga pada identifikasi kebocoran profit dan evaluasi *Service Level Agreement* (SLA) pada sistem logistik/pengiriman barang.
 
-Temuan Utama (Key Insights):
+## 🎯 Pertanyaan Bisnis (Business Questions)
+Dashboard ini dibangun untuk menjawab pertanyaan strategis berikut:
+1. Bagaimana tren pertumbuhan penjualan dari waktu ke waktu? Apakah terdapat pola musiman (*seasonality*)?
+2. Wilayah/Negara bagian mana yang menyumbang pendapatan terbesar?
+3. Sub-kategori produk apa yang sebenarnya menggerus keuntungan perusahaan (menghasilkan profit negatif)?
+4. Bagaimana performa efisiensi waktu logistik (dari pesanan dibuat hingga barang dikirim) di berbagai kelas pengiriman?
 
-Terdapat pola musiman di mana penjualan selalu memuncak pada akhir tahun (Kuartal 4).
+## 🛠️ Tools & Metodologi
+- **Data Visualization & Analytics:** Tableau Public
+- **Data Source:** Global Superstore Dataset (.csv)
+- **Teknik yang Digunakan:**
+  - *Data Aggregation & Time-Series Analysis*
+  - *Geospatial Mapping* (Choropleth Map)
+  - *Calculated Fields* (Membuat formula matematika kustom untuk mengukur selisih hari operasional).
 
-Meskipun volume penjualannya ada, kategori Tables dan Bookcases merupakan penyumbang kerugian terbesar perusahaan.
+## 💡 Temuan Utama (Key Insights)
 
-Rata-rata waktu tunggu pengiriman (Lead Time) untuk Standard Class adalah ~5 hari, sesuai dengan SLA namun bisa dievaluasi untuk peningkatan kepuasan pelanggan.
-<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/608f9360-b6b0-4080-92c3-fa933f4a1ae3" />
+*   **Pola Musiman Penjualan (Seasonality):** Terdapat tren lonjakan transaksi yang konsisten pada Kuartal 4 (Q4), secara spesifik pada bulan November dan Desember. Ini mengindikasikan tingginya aktivitas belanja akhir tahun.
+*   **Identifikasi Kebocoran Profit:** Meskipun menghasilkan angka penjualan bulanan yang ada, sub-kategori **Tables** dan **Bookcases** merupakan penyumbang kerugian bersih (*net loss*) terbesar bagi perusahaan. Strategi harga atau struktur diskon pada kategori ini perlu dievaluasi ulang secara mendesak.
+*   **Performa Sistem Operasional Logistik:** Berdasarkan perhitungan *Order-to-Ship Lead Time*, pengiriman *Standard Class* memakan waktu rata-rata **5 hari**, *Second Class* sekitar **3.2 hari**, dan *First Class* sekitar **2.1 hari**. Metrik ini dapat digunakan sebagai landasan dasar (*baseline*) untuk mengukur target KPI logistik di masa depan.
+
+## 🖼️ Tampilan Dashboard
+![Dashboard Preview](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b59534c9-db33-44a8-8e3d-c99b48acbab1" />
+)
+
+## 📂 Cara Menjalankan Project
+1. Kunjungi tautan Tableau Public di atas untuk berinteraksi langsung dengan dashboard.
+2. Gunakan filter interaktif dengan mengklik pada visualisasi peta (*Sales by Location*) atau pada bar chart (*Profit by Sub-Category*) untuk melihat data secara terpusat (*drill-down*).
+3. File dataset mentah (`Sample - Superstore.csv`) telah disertakan dalam repositori ini bagi yang ingin melihat struktur asal datanya.
