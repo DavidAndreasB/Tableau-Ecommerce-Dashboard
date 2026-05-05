@@ -14,3 +14,4 @@ Terdapat pola musiman di mana penjualan selalu memuncak pada akhir tahun (Kuarta
 Meskipun volume penjualannya ada, kategori Tables dan Bookcases merupakan penyumbang kerugian terbesar perusahaan.
 
 Rata-rata waktu tunggu pengiriman (Lead Time) untuk Standard Class adalah ~5 hari, sesuai dengan SLA namun bisa dievaluasi untuk peningkatan kepuasan pelanggan.
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/608f9360-b6b0-4080-92c3-fa933f4a1ae3" />
