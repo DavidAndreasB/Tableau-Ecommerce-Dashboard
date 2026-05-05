@@ -27,8 +27,7 @@ Dashboard ini dibangun untuk menjawab pertanyaan strategis berikut:
 *   **Performa Sistem Operasional Logistik:** Berdasarkan perhitungan *Order-to-Ship Lead Time*, pengiriman *Standard Class* memakan waktu rata-rata **5 hari**, *Second Class* sekitar **3.2 hari**, dan *First Class* sekitar **2.1 hari**. Metrik ini dapat digunakan sebagai landasan dasar (*baseline*) untuk mengukur target KPI logistik di masa depan.
 
 ## 🖼️ Tampilan Dashboard
-![Dashboard Preview](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b59534c9-db33-44a8-8e3d-c99b48acbab1" />
-)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b59534c9-db33-44a8-8e3d-c99b48acbab1" />
 
 ## 📂 Cara Menjalankan Project
 1. Kunjungi tautan Tableau Public di atas untuk berinteraksi langsung dengan dashboard.
